@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="myFirstApp"> <!-- bind app tp HTMML -->
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>My first AngularJS App</title>
+  </head>
+  <body>
+      <div ng-controller="myFirstController"> <!-- bind DIV to Function -->
+          Inside my Input is: {{name}}<br />
+          <input type="text" ng-model="name">
+
+      </div>
+  </body>
+</html>
